@@ -24,6 +24,7 @@ public class Ed_ {
            System.out.println("1: ");
            System.out.println("2: ");
            System.out.println("3: ");
+           System.out.println("4: ");
            op=teclado.nextInt();
            switch(op){
                case 1:
@@ -32,12 +33,14 @@ public class Ed_ {
                break;
                case 3:
                break;
+               case 4:
+               break;
                default:
                System.out.println("Se ha confundido de opcion: ");
                break;
                
            }
-       }while(op!=3);
+       }while(op!=4);
     }
     
 }
