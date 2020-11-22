@@ -23,7 +23,7 @@ public class Ed_ {
            System.out.println("Introduce una opcion: ");
            System.out.println("1: La suma de dos numeros introducidor por teclado.");
            System.out.println("2: ");
-           System.out.println("3: ");
+           System.out.println("3: Eleva él número a un número.);
            System.out.println("4: Salir");
            op=teclado.nextInt();
            switch(op){
@@ -38,6 +38,11 @@ public class Ed_ {
                case 2:  //Sara;
                break;
                case 3: //Carlos;
+                    Sytem.out.println("Escribe el numero ha elevar");
+                    int num = teclado.nextInt();
+                    System.out.println("A que quieres elevar el " + num);
+                    int aux = teclado.nextInt();
+                    System.out.println("El cuadrado de " + num + " es: " + Math.pow(num, aux));
                break;
                case 4:
                System.out.println("Has salido con exito.");
