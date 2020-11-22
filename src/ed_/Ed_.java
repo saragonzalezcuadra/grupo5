@@ -24,20 +24,25 @@ public class Ed_ {
            System.out.println("1: ");
            System.out.println("2: ");
            System.out.println("3: ");
+           System.out.println("4: Salir");
            op=teclado.nextInt();
            switch(op){
                case 1 //Laura:
+                   
                break;
-               case 2:  //Sara
+               case 2:  //Sara;
                break;
-               case 3:
+               case 3: //Carlos;
+               break;
+               case 4:
+               System.out.println("Has salido con exito.");
                break;
                default:
                System.out.println("Se ha confundido de opcion. ");
                break;
                
            }
-       }while(op!=3);
+       }while(op!=4);
     }
     
 }
