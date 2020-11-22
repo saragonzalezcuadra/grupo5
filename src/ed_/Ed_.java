@@ -27,7 +27,7 @@ public class Ed_ {
            System.out.println("4: ");
            op=teclado.nextInt();
            switch(op){
-               case 1:
+               case 1 //Laura:
                break;
                case 2:
                break;
@@ -36,7 +36,7 @@ public class Ed_ {
                case 4:
                break;
                default:
-               System.out.println("Se ha confundido de opcion: ");
+               System.out.println("Se ha confundido de opcion. ");
                break;
                
            }
