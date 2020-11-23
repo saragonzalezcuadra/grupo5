@@ -23,7 +23,7 @@ public class Ed_ {
            System.out.println("Introduce una opcion: ");
            System.out.println("1: La suma de dos numeros introducidor por teclado.");
            System.out.println("2: ");
-           System.out.println("3: Eleva él número a un número.);
+           System.out.println("3: Eleva él número a un número.");
            System.out.println("4: Salir");
            op=teclado.nextInt();
            switch(op){
