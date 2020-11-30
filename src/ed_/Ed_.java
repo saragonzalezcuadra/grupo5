@@ -24,7 +24,8 @@ public class Ed_ {
             System.out.println("\t1: Calcula la suma de dos números introducidor por teclado.");
             System.out.println("\t2: Muestra la tabla de multiplicar de un número.");
             System.out.println("\t3: Calcula la potencia de un número.");
-            System.out.println("\t4: Salir.");
+            System.out.println("\t4: Calcula el factorial de un número.");
+            System.out.println("\t5: Salir.");
             System.out.print("Introduce la opción: ");
             op = teclado.nextInt();
             switch (op) {
@@ -51,6 +52,14 @@ public class Ed_ {
                     System.out.println(num + " elevado a " + aux + " es: " + Math.pow(num, aux));
                     break;
                 case 4:
+                    System.out.print("Introduce un número: ");
+                    int num=teclado.nextInt();
+                    int fact=1;
+                    for(int i=1; i<=num; i++){
+                       fact=fact*i;
+                    } 
+                    System.out.println("El factorial de "+num+" es "+fact);
+                case 5:
                     System.out.println("Has salido con exito.");
                     break;
                 default:
